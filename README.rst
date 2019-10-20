@@ -24,6 +24,16 @@ The goal of this project is to provide Python language support as a scripting
 module for the `Godot <http://godotengine.org>`_ game engine.
 
 
+/!\\ Rework in progresse /!\\
+=============================
+
+Current version of Godot-Python (`0.11.3 <https://github.com/touilleMan/godot-python/releases/tag/v0.11.3>`_) is working but has some flaws (mainly cumbersome memory management and the impossibility of using Godot release builds).
+
+So a rework is under way with new ideas (using static binding based on Cython instead of  dynamic binding with CFFI, this should simplify the code base and improve performances).
+
+See branch `cython-rewrite <https://github.com/touilleMan/godot-python/tree/cython-rewrite>`_ ;-)
+
+
 Quickstart
 ==========
 
